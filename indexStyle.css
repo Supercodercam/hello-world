@@ -1,0 +1,48 @@
+body {
+    color: navy;
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+  background-color: grey;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgeRklnVOtcwVJjB9LeskTWqs0KnIjcKIbwGplsD3Py4ccMujv3g);
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  text-decoration:none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+
+<ul>
+<li><a class="active" href="index.html">Home</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="resume.html">Resume</a></li>
+</ul>
